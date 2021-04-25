@@ -4,16 +4,26 @@ html {
 body {
     text-align: center ;
 }
+@keyframes fadein {
+    from {
+        opacity: 0 ;
+    }
+    to {
+        opacity: 1 ;
+    }
+}
 img {
     display: block ;
-    border: 7px solid #EEEEEE ;
+    border: 0.5rem solid #EEEEEE ;
     margin: 0 auto ;
     max-width: 50% ;
     height: auto ;
+    animation-duration: 7s;
+    animation-name: fadein;
 }
 p {
     color: #FFFFFF ;
 }
 h1 {
-    color: #FFFFFF ;
+    color: #DDAAAA ;
 }
